@@ -8,6 +8,10 @@
   },
   "author": "Marco Chan <inspiredtolive0@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --config config/webpack.config.js",
+    "dev": "webpack-dev-server --config config/webpack.config.js"
+  },
   "dependencies": {
     "express": "^4.15.2",
     "react": "^15.5.3",
